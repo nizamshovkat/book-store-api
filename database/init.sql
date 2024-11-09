@@ -1,0 +1,3 @@
+CREATE DATABASE bookstore;
+CREATE USER postgres WITH ENCRYPTED PASSWORD 'postgres';
+GRANT ALL PRIVILEGES ON DATABASE bookstore TO postgres;
